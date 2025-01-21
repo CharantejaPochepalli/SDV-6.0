@@ -1,0 +1,125 @@
+.car-container {
+    margin: 4% auto;
+    width: 210px;
+    margin-top: 24px;
+    height: 140px;
+    position: relative;
+    perspective: 800px; /* Keeps depth effect */
+  }
+  
+  #car-carousel {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    animation: rotation 24s infinite linear;
+  }
+  
+  #car-carousel:hover {
+    animation-play-state: paused;
+  }
+  
+  #car-carousel figure {
+    display: block;
+    position: absolute;
+    width: 186px;
+    height: 116px;
+    left: 10px;
+    top: 10px;
+    background: black;
+    overflow: hidden;
+    border: solid 5px black;
+    transform-origin: center;
+  }
+  
+  /* Default 3D position */
+  #car-carousel figure:nth-child(1) { transform: rotateY(0deg) translateZ(210px); }
+  #car-carousel figure:nth-child(2) { transform: rotateY(40deg) translateZ(210px); }
+  #car-carousel figure:nth-child(3) { transform: rotateY(80deg) translateZ(210px); }
+  #car-carousel figure:nth-child(4) { transform: rotateY(120deg) translateZ(210px); }
+  #car-carousel figure:nth-child(5) { transform: rotateY(160deg) translateZ(210px); }
+  #car-carousel figure:nth-child(6) { transform: rotateY(200deg) translateZ(210px); }
+  #car-carousel figure:nth-child(7) { transform: rotateY(240deg) translateZ(210px); }
+  #car-carousel figure:nth-child(8) { transform: rotateY(280deg) translateZ(210px); }
+  #car-carousel figure:nth-child(9) { transform: rotateY(320deg) translateZ(210px); }
+  
+  #pic {
+    -webkit-filter: grayscale(1);
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  
+  #pic:hover {
+    -webkit-filter: grayscale(0);
+    transform: scale(1.2);
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+  
+  /* Responsive for 480px screen */
+  @media (max-width: 480px) {
+    .car-container {
+      width: 130px;
+      height: 90px;
+      margin-top: 50px;
+      perspective: 400px; /* Reduce depth effect */
+    }
+  
+    #car-carousel {
+      animation: rotation 20s infinite linear;
+    }
+  
+    #car-carousel figure {
+      width: 100px;
+      height: 70px;
+    }
+  
+    /* Reduce translateZ for better fit */
+    #car-carousel figure:nth-child(1) { transform: rotateY(0deg) translateZ(110px); }
+    #car-carousel figure:nth-child(2) { transform: rotateY(40deg) translateZ(110px); }
+    #car-carousel figure:nth-child(3) { transform: rotateY(80deg) translateZ(110px); }
+    #car-carousel figure:nth-child(4) { transform: rotateY(120deg) translateZ(110px); }
+    #car-carousel figure:nth-child(5) { transform: rotateY(160deg) translateZ(110px); }
+    #car-carousel figure:nth-child(6) { transform: rotateY(200deg) translateZ(110px); }
+    #car-carousel figure:nth-child(7) { transform: rotateY(240deg) translateZ(110px); }
+    #car-carousel figure:nth-child(8) { transform: rotateY(280deg) translateZ(110px); }
+    #car-carousel figure:nth-child(9) { transform: rotateY(320deg) translateZ(110px); }
+  }
+  
+  /* Responsive for 768px screen */
+  @media (max-width: 768px) {
+    .car-container {
+      width: 160px;
+      height: 110px;
+      margin-top: 60px;
+      perspective: 500px;
+    }
+  
+    #car-carousel {
+      animation: rotation 22s infinite linear;
+    }
+  
+    #car-carousel figure {
+      width: 140px;
+      height: 90px;
+    }
+  
+    /* Reduce translateZ for better fit */
+    #car-carousel figure:nth-child(1) { transform: rotateY(0deg) translateZ(140px); }
+    #car-carousel figure:nth-child(2) { transform: rotateY(40deg) translateZ(140px); }
+    #car-carousel figure:nth-child(3) { transform: rotateY(80deg) translateZ(140px); }
+    #car-carousel figure:nth-child(4) { transform: rotateY(120deg) translateZ(140px); }
+    #car-carousel figure:nth-child(5) { transform: rotateY(160deg) translateZ(140px); }
+    #car-carousel figure:nth-child(6) { transform: rotateY(200deg) translateZ(140px); }
+    #car-carousel figure:nth-child(7) { transform: rotateY(240deg) translateZ(140px); }
+    #car-carousel figure:nth-child(8) { transform: rotateY(280deg) translateZ(140px); }
+    #car-carousel figure:nth-child(9) { transform: rotateY(320deg) translateZ(140px); }
+  }
+  

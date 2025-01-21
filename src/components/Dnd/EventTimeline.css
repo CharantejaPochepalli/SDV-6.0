@@ -1,0 +1,62 @@
+.evetimeline-container {
+    max-width: 600px;
+    margin: auto;
+    background: #121212;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .evetimeline {
+    list-style: none;
+    padding: 0;
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #ed4429; /* Bright yellow for a racing theme */
+    margin-bottom: 20px;
+    font-family: 'Orbitron', sans-serif; /* Futuristic racing font */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 3px solid #da8fa8; /* Red racing stripe */
+    padding-bottom: 10px;
+    position: relative;
+}
+
+h3::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    width: 60px;
+    height: 4px;
+    background: #ed4429; /* Red racing stripe */
+    transform: translateX(-50%);
+    animation: pulse 1.5s infinite alternate;
+}
+
+@keyframes pulse {
+    0% { width: 60px; }
+    100% { width: 90px; }
+}
+
+  
+  .evetimeline-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #da8fa8;
+  }
+  
+  .evetime {
+    font-weight: bold;
+    color: #d85f79;
+  }
+  
+  .eveevent {
+    color: white;
+  }
+  
