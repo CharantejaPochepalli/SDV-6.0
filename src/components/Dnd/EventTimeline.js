@@ -13,7 +13,7 @@ const DayOneEvents = [
 const EventTimeline = () => {
   return (
     <div className="evetimeline-container">
-      <h3> DnD Workflow</h3>
+      <h4> DnD Workflow</h4>
       <ul className="evetimeline">
         {DayOneEvents.map((item, index) => (
           <li key={index} className="evetimeline-item">
