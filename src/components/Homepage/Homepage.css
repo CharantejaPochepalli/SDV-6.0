@@ -14,6 +14,11 @@
     min-height: 100vh; /* Ensure full height of the viewport */
     
   }
+  
+.top{
+  font-size: 4rem
+}
+
   .sdv-heading{
     font-size: 4.4rem;
     justify-content:center ;

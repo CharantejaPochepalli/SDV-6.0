@@ -37,7 +37,13 @@ const Homepage = () => {
 
       {showOtherContent && (
         <div className="md:flex md:flex-col">
+          <div className="top">
+              <h1>
+                DND is live now 
+              </h1>
+            </div>
           <div className="flex flex-col md:flex-row items-center space-y-8 md:space-x-8 mx-12">
+            
             {/* Text Section */}
             <div className="flex-1 text-center md:text-left">
               <p className="sdv-heading font-antons text-2xl leading-tight text-transparent bg-clip-text bg-gradient-to-r from-[#C10000] to-[#C10000] drop-shadow-lg">

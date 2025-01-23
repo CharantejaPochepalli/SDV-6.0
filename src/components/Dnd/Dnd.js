@@ -2,7 +2,7 @@ import React from "react";
 import Timer from './Timer';
 import "./Dnd.css";  
 import Photos from "./Photos";
-import EventTimeline from "./EventTimeline";
+// import EventTimeline from "./EventTimeline";
 import Button from './Button';
 import Carousel from './Carousel';
 
@@ -25,13 +25,13 @@ export const Dnd = () => {
 
           </p>
         </div>
-        <div>
+        {/* <div>
           <EventTimeline />
-        </div>
+        </div> */}
       </section>
 
       <section className="button-section">
-        <a href='https://docs.google.com/forms/d/e/1FAIpQLSdi0pQU4D_4i2UBk1brPG9NL-K5TmA3I276aq8Q5NQUlnm9fw/viewform?usp=sf_link' 
+        <a href='https://docs.google.com/forms/d/e/1FAIpQLSfiro3xL31xeSda230Lqu3rnQY8biUnD2fu0VShkMWldfH_yg/viewform'
           target="_blank" rel="noreferrer">
           <Button />
         </a>
@@ -53,6 +53,14 @@ export const Dnd = () => {
       </section>
 
       <section className="gallery-data">
+      <p>
+          <strong>Winning Perks:</strong> Cash Prizes and Certificates: Rewards for the champions who conquer the track and maze. <br />
+          <strong>Skill Recognition:</strong> Performing well in this event helps showcase your skills and improves your chances in the SAE Club auditions. <br />
+          <strong>Event Day:</strong> 25th January 2024. <br />
+          <strong>Venue:</strong> Student Activity Center (SAC). <br />
+          Join us for an unforgettable experience as we bring together the best minds and machines for a day of intense competition. 
+          Push the limits and embrace the thrill of <strong>Drag and Drift !</strong>
+          </p>
         
       </section>
     </div>  

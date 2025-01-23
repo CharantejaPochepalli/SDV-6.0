@@ -117,6 +117,16 @@
   transition: transform 0s ease-in-out;
 }
 
+.nav-item:nth-child(6) {
+  font-size: 2rem;
+  width: 4.6rem;  
+  font-weight: 800;
+  margin-right: 0px;
+  color: #e81e1e;
+  text-align: center;
+}
+
+
 @media (max-width: 1280px) {
   .nav-items {
     font-size: 1.2rem;
@@ -165,6 +175,7 @@
     color: white;
     padding: 0.5rem;
     text-transform: uppercase;
+    
   }
 }
 
@@ -206,8 +217,6 @@
 .nav-item {
   cursor: pointer;
 }
-
-
 
 .nav-item::before,
 .nav-item::after {
@@ -348,6 +357,11 @@
   }
   .nav-item:nth-child(4){
     margin-left: -84px;
+  }
+  .nav-item:nth-child(6) {
+    animation-delay: 0s;
+    font-size: 1.5rem;
+    margin-left: -22px;
   }
 
   .nav-items {

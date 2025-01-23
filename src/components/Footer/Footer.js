@@ -63,7 +63,7 @@ const Footer = () => {
               <NavLink to="/sponsors" className="hover:text-[rgb(166,4,4)]">
                 Sponsors
               </NavLink>
-              <NavLink to="https://docs.google.com/forms/d/1OBjOjsYahT44kt_2BJob65cK5LY6eLn7s7KD-GTnXxY/edit" className="hover:text-[rgb(166,4,4)]">
+              <NavLink to="https://docs.google.com/forms/d/e/1FAIpQLSfiro3xL31xeSda230Lqu3rnQY8biUnD2fu0VShkMWldfH_yg/viewform" className="hover:text-[rgb(166,4,4)]">
                 Register
               </NavLink>
             </nav>
