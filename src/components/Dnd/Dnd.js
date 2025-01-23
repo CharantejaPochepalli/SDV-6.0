@@ -17,6 +17,14 @@ export const Dnd = () => {
       
       <section className="dnd">
         <h1>drag n drift 6.0</h1>
+        <div className="dnd-data">
+          <p>
+          Welcome to DRAG N DRIFT, the ultimate test of speed, control, and precision hosted by the SAEINDIA Collegiate Club, 
+          NIT Durgapur. This electrifying competition combines the thrill of racing on a high-speed track with the challenge of 
+          navigating an intricate maze, pushing both your skills and your bots to their limits.
+
+          </p>
+        </div>
         <div>
           <EventTimeline />
         </div>
@@ -45,17 +53,7 @@ export const Dnd = () => {
       </section>
 
       <section className="gallery-data">
-        <p>
-          Experience the thrill and excitement of Drag N Drift 6.0! 
-          Witness amazing performances, innovative engineering, 
-          and a community of passionate automotive enthusiasts.
-          Experience the thrill and excitement of Drag N Drift 6.0! 
-          Witness amazing performances, innovative engineering, 
-          and a community of passionate automotive enthusiasts.
-          Experience the thrill and excitement of Drag N Drift 6.0! 
-          Witness amazing performances, innovative engineering, 
-          and a community of passionate automotive enthusiasts.
-        </p>
+        
       </section>
     </div>  
   );

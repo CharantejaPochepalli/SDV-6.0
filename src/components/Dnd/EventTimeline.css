@@ -16,12 +16,12 @@
     text-align: center;
     font-size: 28px;
     font-weight: bold;
-    color: #ed4429; /* Bright yellow for a racing theme */
+    color: #ed4429; 
     margin-bottom: 20px;
-    font-family: 'Orbitron', sans-serif; /* Futuristic racing font */
+    font-family: 'Orbitron', sans-serif; 
     text-transform: uppercase;
     letter-spacing: 2px;
-    border-bottom: 3px solid #da8fa8; /* Red racing stripe */
+    border-bottom: 3px solid #da8fa8; 
     padding-bottom: 10px;
     position: relative;
 }
@@ -33,7 +33,7 @@ h4::after {
     bottom: -10px;
     width: 60px;
     height: 4px;
-    background: #ed4429; /* Red racing stripe */
+    background: #ed4429; 
     transform: translateX(-50%);
     animation: pulse 1.5s infinite alternate;
 }
