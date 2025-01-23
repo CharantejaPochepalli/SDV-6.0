@@ -16,7 +16,7 @@ export const Dnd = () => {
       </section>
       
       <section className="dnd">
-        <h1>drag n drift 6.0</h1>
+        <h1>drag n drift </h1>
         <div className="dnd-data">
           <p>
           Welcome to DRAG N DRIFT, the ultimate test of speed, control, and precision hosted by the SAEINDIA Collegiate Club, 
